@@ -50,7 +50,7 @@ set concealcursor=vin
 let g:clang_snippets=1
 let g:clang_conceal_snippets=1
 " The single one that works with clang_complete
-let g:clang_snippets_engine='ultisnips'
+let g:clang_snippets_engine='ClangComplete'
 
 " Complete options (disable preview scratch window, longest removed to aways
 " show menu)
