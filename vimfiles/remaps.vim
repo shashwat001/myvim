@@ -9,9 +9,17 @@ nnoremap <C-Up> ddkP
 " Shortcuts for tab navigation
 nnoremap <C-S-tab> :tabprevious<CR>
 nnoremap <C-tab>   :tabnext<CR>
+
 nnoremap <C-w>   :tabclose<CR>
 nnoremap <C-t>     :tabnew<CR>
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
 inoremap <C-w>   <Esc>:tabclose<CR>
-inoremap <C-t>     <Esc>:tabnew<CR>
+inoremap <C-t>    <Esc>:tabnew<CR>
+
+" Cut, Copy, Paste
+
+vnoremap <C-x> "+x
+vnoremap <C-c> "+y
+inoremap <C-v> <Esc>"+pi<Right>
+nnoremap <C-v> "+p<Right>
