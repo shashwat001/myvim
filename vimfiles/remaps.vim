@@ -23,3 +23,6 @@ vnoremap <C-x> "+x
 vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+pi<Right>
 nnoremap <C-v> "+p<Right>
+
+" Nerd Tree shortcuts
+map <C-n> :NERDTreeToggle<CR>
