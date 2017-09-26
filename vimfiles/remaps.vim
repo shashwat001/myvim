@@ -2,6 +2,8 @@
 " below the current line
 nnoremap <C-Down> ddp
 
+nnoremap <C-N><C-N> :set invnumber<CR>
+
 " Move the line up dd deletes the current line, k moves cursor up and P paste
 " in the current line
 nnoremap <C-Up> ddkP
