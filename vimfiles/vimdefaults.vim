@@ -4,3 +4,4 @@ set noswapfile
 set number
 set nowrapscan
 set hlsearch
+set paste
